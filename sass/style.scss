@@ -7,6 +7,30 @@
   border: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 ul, ol {
   list-style: none;
 }
+
+html {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.hedFootContainer {
+  width: 90%;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "main";

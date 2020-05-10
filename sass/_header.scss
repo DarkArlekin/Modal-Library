@@ -1,0 +1,26 @@
+.header {
+  background-color: #95a5a6;
+  position: relative;
+
+  &__content {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 2rem;
+    position: relative;
+  }
+
+
+}
+
+.nameTagLib {
+  font-size: 3.5rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mainLogo {
+  width: 100px;
+  height: 100px;
+}

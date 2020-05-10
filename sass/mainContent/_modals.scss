@@ -1,0 +1,41 @@
+.modals {
+  text-align: center;
+  color: #ecf0f1;
+
+  & h2 {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 3px #e74c3c;
+  }
+}
+
+.modals__mainModals {
+  & .modalsActivate {
+    padding: 3rem 0;
+    font-size: 1.4rem;
+
+    & button {
+      padding: 1.3rem 2rem;
+      background: #e74c3c;
+      border-radius: 10px;
+      margin: 0 2rem;
+      color: #ffffff;
+    }
+
+  }
+}
+
+.modalsColor {
+  position: relative;
+
+  &::before {
+    content: '';
+    border-top: transparent 0;
+    border-left: transparent 0;
+    border-bottom: transparent 70px;
+    border-right: #34495e 100vw;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

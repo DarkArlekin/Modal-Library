@@ -3,22 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no,
+         initial-scale=1.0, maximum-scale=1.0,
+          minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Modal</title>
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="shortcut icon"
+        href="assets/Alogo200.svg" type="image/x-icon">
+  <title>Modal Lib</title>
 </head>
 <body>
+
 
 <header class="header">
   <div class="hedFootContainer">
     <div class="header__content">
-    
+      <a href="/">
+        <img class="mainLogo"
+             src="./assets/Alogo200.svg" alt="">
+      </a>
+      <h1 class="nameTagLib">nameTagLib</h1>
     </div>
   </div>
 </header>
-<main>
-
+<main class="main">
+  
+  <article class="modals">
+    <div class="container">
+      <section class="modals__mainModals">
+        <h2>Main Modals</h2>
+        <div class="modalsActivate">
+          <button class="btnActivate" type="button">Some 1</button>
+          <button class="btnActivate" type="button">Some 2</button>
+          <button class="btnActivate" type="button">Some 3</button>
+        </div>
+      </section>
+    </div>
+    <section class="modalsColor">
+    
+    </section>
+  </article>
 </main>
 <footer class="footer">
   <div class="hedFootContainer">
@@ -28,6 +53,8 @@
   </div>
 </footer>
 
+<script src="modal/base.js"></script>
+<script src="modal/modal.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
